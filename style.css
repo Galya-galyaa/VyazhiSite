@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    /* margin: 20px auto; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head-with-logo {
+  display: flex;                    
+  justify-content: space-between;   
+  align-items: center;             
+  padding: 10px 20px;      
+  background-color: #DBD3E5;           
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.headerLogo img {
+  height: 50px;                     
+  display: block;
+}
+
+.headerIcons {
+  display: flex;
+  gap: 20px;                       
+}
+
+.headerIIcon img {
+  height: 32px;                    
+  display: block;
+  transition: transform 0.2s;
+}
+
+.headerIIcon img:hover {
+  transform: scale(1.1);            
+}
