@@ -1,6 +1,8 @@
 body {
     margin: 0 auto;
     padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
     /* margin: 20px auto; */
 }
 
@@ -10,31 +12,94 @@ body {
   box-sizing: border-box;
 }
 
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .head-with-logo {
-  display: flex;                    
+  /* display: flex;                    
   justify-content: space-between;   
   align-items: center;             
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
   padding: 10px 20px;      
-  background-color: #DBD3E5;           
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #DBD3E5;
 }
 
 .headerLogo img {
-  height: 50px;                     
+  height: 35px;
+  margin-left: 26px;    
+  margin-top: 23px;                     
   display: block;
 }
 
 .headerIcons {
   display: flex;
-  gap: 20px;                       
+  gap: 20px;   
+  margin-right: 45px;   
+  margin-top: 23px;                       
 }
 
 .headerIIcon img {
-  height: 32px;                    
+  width: 20px;
+  height: 20px;
   display: block;
   transition: transform 0.2s;
 }
 
 .headerIIcon img:hover {
   transform: scale(1.1);            
+}
+
+
+.headerNav {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 30px;
+    margin-top: 40px;
+    padding-right: 110px;
+}
+
+.headerNav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.headerNav a:hover {
+    text-decoration: underline;
+}
+
+.headerSearchRow {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 6px 30px;
+    margin-top: 26px;
+    margin-left: 26px;  
+    margin-right: 40px;
+}
+
+.headerSearchBox {
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 8px 20px;
+    min-width: 180px;
+    color: #555;
+    font-size: 15px;
+}
+
+.headerSearchBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.headerSearchBtn img {
+    height: 24px;
+    display: block;
 }

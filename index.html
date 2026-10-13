@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vyazhi.ru</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
     <header class="head-with-logo">
-        <a href="#" class="headerLogo">
-            <img src="img/iconMain.svg" alt="Логотип">
-        </a>
-        <div class="headerIcons">
-            <a href="#" class="headerIIcon">
-                <img src="img/favorites.svg" alt="Избранное">
+        <div class="headerTop">
+            <a href="#" class="headerLogo">
+                <img src="img/iconMain.svg" alt="Логотип">
             </a>
-            <a href="#" class="headerIIcon">
-                <img src="img/profile.svg" alt="Профиль">
-            </a>
+            <div class="headerIcons">
+                <a href="#" class="headerIIcon">
+                    <img src="img/favorites.svg" alt="Избранное">
+                </a>
+                <a href="#" class="headerIIcon">
+                    <img src="img/profile.svg" alt="Профиль">
+                </a>
+            </div>
         </div>
-        <nav class="header__nav">
+
+        <nav class="headerNav">
             <a href="#">О сайте</a>
             <a href="#">Схемы крючком</a>
             <a href="#">Схемы спицами</a>
         </nav>
-  </header>
+
+        <div class="headerSearchRow">
+            <div class="headerSearchBox">Поиск</div>
+            <button class="headerSearchBtn" aria-label="Найти">
+                <img src="img/search.svg" alt="Поиск">
+            </button>
+        </div>
+
     </header>
 </body>
 </html>
