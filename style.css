@@ -481,4 +481,23 @@ body {
     flex-direction: column;
 }
 
+.about-content {
+    padding: 0 20px 80px 40px; 
+    max-width: 900px;
+}
 
+.about-text {
+    margin: 0 0 20px 0; 
+    font-family: "Inter", sans-serif;
+    font-weight: 200; 
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left;
+}
+
+.headerNav a.active {
+    font-weight: 500;
+    color: #300360;
+    text-decoration: underline;
+}
