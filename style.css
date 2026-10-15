@@ -405,8 +405,16 @@ body {
 a.card {
     text-decoration: none;
     color: inherit;
+    flex: 0 0 250px;
     display: flex;
     flex-direction: column;
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0 40px 60px 40px;
+    justify-content: flex-start;
 }
 
 .footer {
