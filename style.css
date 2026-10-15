@@ -458,3 +458,27 @@ body {
     text-decoration: underline;
 }
 
+.page-title {
+    margin: 60px 40px 40px 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    padding: 0 40px 60px 40px;   
+    justify-content: flex-start; 
+}
+
+.catalog .scheme-card {
+    flex: 0 0 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+
