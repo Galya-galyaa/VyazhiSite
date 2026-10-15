@@ -328,9 +328,11 @@ body {
 }
 
 .scheme-card {
-    flex: 0 0 350px; 
+    flex: 0 0 350px;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: inherit;     
 }
 
 .scheme-image-wrap {
@@ -390,9 +392,23 @@ body {
 .schemes-all:hover .schemes-all-text {
     color: #4A148C;
 }
+.scheme-card .scheme-image-wrap {
+    position: relative;
+    width: 350px;
+    height: 290px;
+}
+
 .scheme-card-hidden {
     display: none;
 }
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
 .footer {
     background-color: #DBD3E5;
     padding: 30px 40px;
@@ -500,4 +516,122 @@ body {
     font-weight: 500;
     color: #300360;
     text-decoration: underline;
+}
+
+.product {
+    padding: 40px;
+}
+
+.product-back {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.product-back img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.product-title {
+    margin: 0 0 40px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.product-gallery {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.product-main {
+    width: 765px;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.product-main-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.product-thumbs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.product-thumb {
+    width: 344px;
+    height: 344px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product-arrow {
+    font-size: 24px;
+    color: #4A148C;
+    user-select: none;
+}
+
+.product-dots {
+    display: flex;
+    gap: 12px;
+}
+
+.product-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+}
+
+.product-dot-active {
+    background-color: #4A148C;
+}
+
+.product-description,
+.product-schema {
+    padding: 40px;
+}
+
+.section-heading {
+    margin: 0 0 20px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.product-text {
+    margin: 0 0 16px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+}
+
+.schema-image {
+    width: 1225px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
