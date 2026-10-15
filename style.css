@@ -528,13 +528,13 @@ a.card {
 }
 
 .product-back img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: block;
 }
 
 .product-title {
-    margin: 0 0 40px 0;
+    margin: 0 0 60px 0;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -549,7 +549,7 @@ a.card {
 }
 
 .product-main {
-    width: 765px;
+    width: 732px;
     max-width: 100%;
     height: auto;
     flex-shrink: 0;
@@ -605,16 +605,19 @@ a.card {
     background-color: #4A148C;
 }
 
-.product-description,
-.product-schema {
+.product-description {
     padding: 40px;
+}
+
+.product-schema {
+    padding: 10px 40px 40px 40px;  
 }
 
 .section-heading {
     margin: 0 0 20px 0;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 22px;
     color: #333;
     text-transform: uppercase;
 }
@@ -622,8 +625,8 @@ a.card {
 .product-text {
     margin: 0 0 16px 0;
     font-family: "Inter", sans-serif;
-    font-weight: 200;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 1.6;
     color: #333;
     max-width: 900px;
