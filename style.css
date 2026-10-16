@@ -891,7 +891,7 @@ a.modal-button {
 }
 .modal-link {
     font-size: 15px;
-    color: #886581;
+    color: #384D6E;
     text-decoration: none;
 }
 
@@ -901,6 +901,7 @@ a.modal-button {
 
 .modal-link-right {
     margin-left: auto;
+    color: #886581; 
 }
 
 
