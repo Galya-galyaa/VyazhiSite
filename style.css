@@ -646,3 +646,147 @@ a.card {
     height: auto;
     display: block;
 }
+
+.profile {
+    padding: 40px;
+}
+
+.profile-back {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.profile-back img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.profile-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-title {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.profile-logout {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #384D6E;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.profile-logout:hover {
+    text-decoration: underline;
+}
+
+.profile-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #DBD3E5;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 8px;
+}
+
+.profile-row-static {
+    cursor: default;
+}
+
+.profile-row-icon {
+    width: 26px;
+    height: 26px;
+    display: block;
+}
+
+.profile-row-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+
+.profile-row-arrow {
+    margin-left: auto;   
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.profile-line {
+    width: 100%;
+    display: block;
+    margin: 30px 0;
+}
+
+.profile-button {
+    background-color: #C4BEC8;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.profile-button:hover {
+    background-color: #b0a9b6;
+}
+
+.profile-button-small {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.profile-button-save {
+    margin-top: 20px;
+}
+
+.profile-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #E0E0E0;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+.profile-field-password {
+    align-items: center;
+}
+
+.profile-field-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-field-label {
+    font-weight: 500;
+    min-width: 100px;
+}
+
+.profile-field-value {
+    font-weight: 200;
+    color: #555;
+}

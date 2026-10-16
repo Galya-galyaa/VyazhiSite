@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой профиль — Vyazhi.ru</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="head-with-logo">
+        <div class="headerTop">
+            <a href="index.html" class="headerLogo">
+                <img src="img/iconMain.svg" alt="Логотип">
+            </a>
+            <div class="headerIcons">
+                <a href="favorites.html" class="headerIIcon">
+                    <img src="img/favorites.svg" alt="Избранное">
+                </a>
+                <a href="profile.html" class="headerIIcon">
+                    <img src="img/profile.svg" alt="Профиль">
+                </a>
+            </div>
+        </div>
+
+        <nav class="headerNav">
+            <a href="about.html">О сайте</a>
+            <a href="schemes-crochet.html">Схемы крючком</a>
+            <a href="schemes-spoke.html">Схемы спицами</a>
+        </nav>
+
+        <div class="headerSearchRow">
+            <div class="headerSearchBox">Поиск</div>
+            <button class="headerSearchBtn" aria-label="Найти">
+                <img src="img/search.svg" alt="Поиск">
+            </button>
+        </div>
+    </header>
+
+    <section class="profile">
+
+        <div class="profile-top">
+            <a href="index.html" class="profile-back">
+                <img src="img/card-arrow.svg" alt="Назад">
+            </a>
+        </div>
+
+        <div class="profile-heading">
+            <h1 class="profile-title">МОЙ ПРОФИЛЬ</h1>
+            <a href="#" class="profile-logout">ВЫЙТИ</a>
+        </div>
+
+        <a href="favorites.html" class="profile-row">
+            <img src="img/favorites.svg" alt="Избранное" class="profile-row-icon">
+            <span class="profile-row-text">ИЗБРАННОЕ</span>
+            <img src="img/arrow-right.svg" alt="Далее" class="profile-row-arrow">
+        </a>
+
+        <div class="profile-row profile-row-static">
+            <img src="img/settings.svg" alt="Настройки" class="profile-row-icon">
+            <span class="profile-row-text">НАСТРОЙКИ</span>
+        </div>
+
+        <img src="img/line.svg" alt="" class="profile-line">
+
+        <button class="profile-button">Редактировать профиль</button>
+
+        <div class="profile-field">
+            <span class="profile-field-label">Имя</span>
+            <span class="profile-field-value">Иван Иванов</span>
+        </div>
+
+        <div class="profile-field">
+            <span class="profile-field-label">Email</span>
+            <span class="profile-field-value">ivan@example.com</span>
+        </div>
+
+        <div class="profile-field profile-field-password">
+            <div class="profile-field-left">
+                <span class="profile-field-label">Пароль</span>
+                <span class="profile-field-value">••••••••</span>
+            </div>
+            <button class="profile-button profile-button-small">Сменить пароль</button>
+        </div>
+
+        <button class="profile-button profile-button-save">Сохранить</button>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="img/icon-footer.svg" alt="Иконка" class="footer-icon">
+            <p class="footer-text">Разберитесь в мире вязания вместе с нами!</p>
+        </div>
+        <div class="footer-right">
+            <p class="footer-menu-title">Меню</p>
+            <nav class="footer-menu">
+                <a href="about.html">О сайте</a>
+                <a href="schemes-crochet.html">Схемы крючком</a>
+                <a href="schemes-spoke.html">Схемы спицами</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
